@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.logoPrincipal{
+	height: 60px;
+	border: solid 0.5px ;
+  border-radius: 25%;
+}
+
+.color1{
+	color: #8c0327;
+}
+.color2{
+	color:#153959 ;
+
+}
+.bcolor2{
+	background: #d9b0a7;
+}
+
+#navbarSupportedContent ul li a{
+	color: #8c0327;
+}
+
+.iconos{
+	display: flex;
+	justify-content: right;
+}
+
+#botonNav{
+	color: #8c0327;
+}
+
+.imgBorder{
+  border: solid 2px #153959;
+  border-radius: 25px;
+}
+
+.imgBorder:hover{
+	transform: scale(1.03);
+	transition: all .5s;
+}
+
+#eslogan{
+	font-family: Permanent Marker , cursive ;
+  color: #153959;
+}
+.tituloh1{
+  font-family: Permanent Marker , cursive ;
+  color: #153959;
+}
+
+footer{
+	background: #d9b0a7
+}
+
+.logoFooter{
+	height: 40px;
+	border: solid 0.5px ;
+  border-radius: 25%;
+}
+
+footer a{
+	text-decoration: none;
+	color: #8c0327;
+}
+
+footer a:hover{
+	color: #153959;
+}
+
+.mainContacto{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(217, 176, 167,.5);
+}
+
+.imgCorreo{
+  display: none;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.containerForm{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputCon{
+  width: 100%;
+  border: none;
+  color: #153959;
+  padding: 12px 20px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.inputCon:focus{
+  border: 3px solid #8c0327;
+  background-color:#d9b0a7;
+  box-sizing: border-box;
+ 
+}
+
+.labelForm{
+  margin: 6px;
+  color: #153959;
+  font-weight: bold;
+  padding: 4px;
+  text-align: center;
+
+}
+
+input[type=checkbox]{
+  width: 20px;
+
+}
+
+.btn{
+  margin: 4px 0;
+
+}
+.button {
+  background-color: #8c0327; 
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+
+}
+
+@media only screen and (min-width: 768px){
+	.mainContacto{
+		display: flex;
+		justify-content: space-between;
+	}
+	.imgCorreo{
+		display: flex;
+		align-self: center; 
+	;
+
+
+	}
+	.imgCorreo i{
+		font-size: 20em;
+		color: #8c0327;
+    margin-right: 20px;	
+	}
+}
